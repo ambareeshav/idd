@@ -6,6 +6,8 @@ Use it when you want to think an idea through before anything gets built. To che
 
 ## Install
 
+Part of [Ambareesha's Claude Code plugins](https://github.com/ambareeshav/claude-plugins). Add the marketplace once, then install idd from it.
+
 Inside Claude Code:
 
 ```
@@ -13,7 +15,16 @@ Inside Claude Code:
 /plugin install idd@ambareeshav
 ```
 
-This adds [all my plugins](https://github.com/ambareeshav/claude-plugins) as one marketplace. To add only this repo instead, use `/plugin marketplace add ambareeshav/idd` and `/plugin install idd@idd`.
+Or, once the marketplace is added, run `/plugin`, open the **ambareeshav** marketplace, and install idd from the list.
+
+If you're continuing a session, run `/reload-plugins` to turn it on.
+
+From the terminal:
+
+```
+claude plugin marketplace add ambareeshav/claude-plugins
+claude plugin install idd@ambareeshav
+```
 
 ## Use
 
@@ -22,10 +33,3 @@ End your message with `idd`, e.g.
 > Should uploads go straight to blob storage, or through the API first so we can validate them? idd
 
 Only messages that end with `idd` are affected. Your next message without it goes back to normal.
-
-## Install from the terminal
-
-```
-claude plugin marketplace add ambareeshav/claude-plugins
-claude plugin install idd@ambareeshav
-```
