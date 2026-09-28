@@ -1,0 +1,12 @@
+{
+  "name": "idd",
+  "owner": { "name": "Ambareesha Vittal" },
+  "metadata": { "description": "The idd plugin for Claude Code." },
+  "plugins": [
+    {
+      "name": "idd",
+      "source": "./",
+      "description": "Ideate, Debate, Discuss: end a message with idd and Claude only discusses and plans, with no code changes."
+    }
+  ]
+}
