@@ -9,9 +9,11 @@ Use it when you want to think an idea through before anything gets built. To che
 Inside Claude Code:
 
 ```
-/plugin marketplace add ambareeshav/idd
-/plugin install idd@idd
+/plugin marketplace add ambareeshav/claude-plugins
+/plugin install idd@ambareeshav
 ```
+
+This adds [all my plugins](https://github.com/ambareeshav/claude-plugins) as one marketplace. To add only this repo instead, use `/plugin marketplace add ambareeshav/idd` and `/plugin install idd@idd`.
 
 ## Use
 
@@ -24,6 +26,6 @@ Only messages that end with `idd` are affected. Your next message without it goe
 ## Install from the terminal
 
 ```
-claude plugin marketplace add ambareeshav/idd
-claude plugin install idd@idd
+claude plugin marketplace add ambareeshav/claude-plugins
+claude plugin install idd@ambareeshav
 ```
